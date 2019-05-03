@@ -1,0 +1,40 @@
+{
+ "title" : "Social",
+   "social": [
+   {
+   	"icon" : "orcid",
+   	"icon_pack" : "ai ai",
+   	"link" : "https://orcid.org/0000-0003-2318-6576"
+	},
+	{
+      "icon" : "google-scholar", 
+      "icon_pack" : "ai ai",
+      "link" : "https://scholar.google.com/citations?user=-I69EIMAAAAJ&hl=en"
+	},
+	{
+     "icon" : "publons", 
+     "icon_pack" : "ai ai",
+     "link" : "//publons.com/author/1358893/anne-wil-kruijt#profile"
+	},
+	{
+    "icon" : "osf",
+    "icon_pack" : "ai ai",
+    "link" : "//osf.io/pnuqj/"
+   },
+   {
+    "icon" : "github",
+    "icon_pack" : "fab fa",
+    "link" : "//github.com/AWKruijt"
+   },
+   {
+    "icon" : "twitter",
+    "icon_pack": "fab fa",
+    "link" : "//twitter.com/t_awkr"
+   },
+   {
+    "icon" : "linkedin", 
+    "icon_pack" : "fab fa", 
+    "link" : "/linkedin.com/in/awkruijt"
+   }
+   ]
+}

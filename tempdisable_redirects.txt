@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://awkruijt.netlify.com/* http://awkruijt.nl/:splat 301!

@@ -1,0 +1,46 @@
+{
+	"title" : "plotfolio",
+	"plotfolio" : [
+	  	{
+			"image" : "JTRCI dashboard screenshot.png",
+			"title" : "",
+			"description" : "reliable change & Jacobson-Truax indices - plotting dashboard (on shinyapps.io)",
+			"link" : "https://awkruijt.shinyapps.io/JTRCI_dashboard/"
+		},
+		{
+			"image" : "JTI longitudinal plot.png",
+			"title" : "tessttitle",
+			"description" : "Jacobson-Truax indices over multiple time points",
+			"link" : "images/JTI longitudinal plot.png"
+		},
+		{
+			"image" : "placebo contingency shiny.png",
+			"title" : "",
+			"description" : "datasimulation dashboard (on shinyapps.io)",
+			"link" : "https://awkruijt.shinyapps.io/mechanics-of-CBM-app/"
+		},
+	
+			{
+			"image" : "difference score draggable dashboard.png",
+			"title" : "",
+			"description" : "dashboard on behaviour of difference score - draggable (D3.js) plots using R2D3 (on shinyapps.io)",
+			"link" : "https://awpres.shinyapps.io/diffscorereliablityfourplots/"
+		},
+		
+		{
+			"image" : "CI dance animated.gif",
+			"title" : "",
+			"description" : "R generated gif illustrating 'the dance of the CIs'",
+			"link" : "images/CI dance animated.gif"
+		},
+		
+		{
+			"image" : "MA demo stage I screenshot.png",
+			"title" : "",
+			"description" : "an example shiny to perform record selection & data extraction for meta-analysis (opens github)",
+			"link" : "https://github.com/AWKruijt/MA_Demo_assessment_app"
+		}
+	]
+}
+
+

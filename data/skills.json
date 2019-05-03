@@ -1,0 +1,19 @@
+{
+	"title" : "skills",
+	"skills1" : {
+		"1": "R",
+		"2": "SPSS",
+		"3": "e-prime",
+	  "4": "adobe photoshop & illustrator",
+	  "5": "dabbled in python/D3.js/markdown"
+
+	}, 
+		"skills2" : {
+		"1": "methods & statistics",
+	  "3": "knowledge transfer",
+		"2": "data-visualisation",
+		"4": "creative yet critical thinking",
+		"5": "(translating) academic writing"
+
+	}
+}

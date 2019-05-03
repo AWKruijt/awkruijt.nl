@@ -1,0 +1,24 @@
+{
+	"title" : "selected publications:",
+	"publications" : 
+		{
+		"title1" : "No evidence for attention bias towards threat in clinical anxiety and PTSD: a meta-analysis of baseline dot probe bias in attention bias modification RCTs",
+    "authors1" : "Kruijt, A.-W., Parsons, S., & Fox, E.",
+    "journal1" : "journal of Abnormal Psychology, in press",
+    "doi1" : "10.1037/abn0000406 ",
+    "pdfurl1" :"https://psyarxiv.com/rfjup",
+    
+    "title2" : "Capturing dynamics of biased attention: Are new attention variability measures the way forward?",
+    "authors2" : "Kruijt, A.-W, Field, A.P., & Fox, E.",
+    "journal2" : "PLoS One, 2019",
+    "doi2" : "10.1371/journal.pone.0166600",
+    "pdfurl2" : "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166600",
+		
+    "title3" : "[preprint] Mechanics of contingency-based Cognitive Bias Modification: pre-existing bias affects potency of active training but not placebo conditions",
+    "authors3" : "Kruijt, Anne-Wil & Carlbring, Per",
+    "journal3" : "preprint",
+    "doi3" : "10.31234/osf.io/scqf3",
+    "pdfurl3" : "https://psyarxiv.com/scqf3/"
+		}
+	
+}

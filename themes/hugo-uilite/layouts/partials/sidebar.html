@@ -1,0 +1,37 @@
+{{ $sidebar := .Site.Data.sidebar }}
+{{ $social := .Site.Data.social }}
+
+<section id="sidebar" class="sidebar d-flex align-items-center p-5">
+  <div class="main-info">
+
+    <img src="{{.Site.BaseURL}}images/{{ $sidebar.displayPicture }}" class="rounded-circle mb-3" width="160px">
+
+    <h1 class="heading">{{ $sidebar.title }} 
+<!--   
+   <span class="highlight">{{ $sidebar.highlightedText }}</span>
+-->
+    </h1>
+    <p class="text-muted">{{ $sidebar.description }}</p>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
+    <link rel="stylesheet" href="//cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <div class="author-urls-wrapper">
+    <ul class="author-urls social-icons" aria-hidden="true" style="font-size: 22px">
+      {{ range $index, $element := $social.social  }}
+      <li>
+        <a itemprop="sameAs" href="{{ $element.link | safeURL }}" target="_blank" rel="noopener">
+           <i class="{{ $element.icon_pack }}-{{ $element.icon }}" ></i>
+          {{ .text }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>  
+      
+    </div>
+    
+    <a href="#contact" class="btn btn-dark btn-lg">Contact</a>
+
+    
+  </div>
+</section>
