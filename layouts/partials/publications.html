@@ -1,8 +1,8 @@
 {{ $publications := .Site.Data.publications }}
 
 <section class="greygreen">
-  <h2>{{ $publications.title }}</h2>
-<br>
+  <h3>{{ $publications.title }}</h3>
+ <hr>
 <!--Carousel Wrapper-->
 <div id="carousel-publications" class="carousel slide carousel-fade" data-ride="carousel">
   <!--Indicators-->
@@ -16,11 +16,12 @@
   <div class="carousel-inner" role="listbox">
     <!--First slide-->
     <div class="carousel-item active">
-        <p> <strong> {{$publications.publications.title1}} </strong>         
+        <p> 
+        <strong> {{$publications.publications.title1}} </strong>      
         <br>{{$publications.publications.authors1}}
         <br> <em> {{$publications.publications.journal1}} </em>
         <br> DOI: <em> <a href="{{$publications.publications.pdfurl1}}">{{$publications.publications.doi1}}</a></em>
-         </p>
+       </p>
     </div>
     <!--/First slide-->
     <!--Second slide-->
@@ -41,9 +42,10 @@
          </p>
     </div>
     <!--/Third slide-->
+      <hr>
   </div>
   <!--/.Slides-->
-  
+ 
   <!--Controls-->
   <a class="carousel-control-prev" href="#carousel-publications" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -58,5 +60,5 @@
 <!--/.Carousel Wrapper-->
     </div>
     <br>
-    <p>visit <a href="https://orcid.org/0000-0003-2318-6576">my orcid record</a> for an up-to-date full list of publications </p>
+    <p>for a complete list of publications visit <a href="https://orcid.org/0000-0003-2318-6576"> my orcid record </a>  </p>
 </section>
