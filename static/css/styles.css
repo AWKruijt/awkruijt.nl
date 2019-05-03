@@ -47,14 +47,14 @@ h6, .h6 {
 }
 
 .carousel-indicators {
-  bottom: -20px;
+  bottom: -30px;
   left: 140px;
 }
 
 .carousel-inner {
   margin-left:70px;
   margin-right:70px;
-  margin-bottom:20px;
+  margin-bottom:30px;
 }
 
 .carousel-item {
@@ -164,16 +164,6 @@ a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
-#popup {
-     background-color: red;
-    display:none;
-    position:absolute;
-    margin:0 auto;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 50px 1px #000;
-}
 
 article {
   font-size: 18px !important;
@@ -198,6 +188,17 @@ article code {
 article mark {
   background-color: white;
   color: #c80000;
+}
+
+p{
+margin-bottom: 0px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 3px solid rgba(0,0,0,.1);
 }
 
 .heading,
@@ -362,6 +363,10 @@ section.pink {
   border: none;
 }
 
+.card-caroussel {
+  border: none;
+}
+
 .card-img-bg {
   border-radius: 6px;
   border: solid;
@@ -433,9 +438,6 @@ section.pink {
   transition: all 0.3s ease;
 }
 
-#timeline .timeline-item .timeline-content p {
-  
-}
 
 #timeline .timeline-item .timeline-content .date {
   display: inline-block;
