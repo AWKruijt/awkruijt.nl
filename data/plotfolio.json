@@ -23,7 +23,7 @@
 			{
 			"image" : "difference score draggable dashboard.png",
 			"title" : "",
-			"description" : "dashboard on behaviour of difference score - draggable (D3.js) plots using R2D3 (on shinyapps.io)",
+			"description" : "dashboard on behaviour of difference scores - draggable (D3.js) plots through R2D3 (on shinyapps.io)",
 			"link" : "https://awpres.shinyapps.io/diffscorereliablityfourplots/"
 		},
 		
