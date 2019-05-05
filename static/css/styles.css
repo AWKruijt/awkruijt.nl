@@ -47,18 +47,19 @@ h6, .h6 {
 }
 
 .carousel-indicators {
-  bottom: -30px;
+  bottom: -20px;
   left: 140px;
 }
 
 .carousel-inner {
-  margin-left:70px;
-  margin-right:70px;
-  margin-bottom:30px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 20px;
 }
 
 .carousel-item {
- height: 170px;
+ min-height: 200px;
+ width: 90%;
 }
 
 .sidebar {
@@ -115,12 +116,10 @@ h6, .h6 {
 
 .author-urls i {
   margin: 12px;
-  color: #cadfdf;
+  color: #bad5d5;
 }
 
-btn-dark {
-    background-color: #1b5a63;
-}
+
 
 .main-content {
   position: relative;
@@ -262,24 +261,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 6px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  
+  background-color: #10333c;
 }
 
-.btn.btn-primary {
-  background-color: #1b5a63;
-  border-color: #1b5a63;
-}
 
-.btn.btn-primary:hover {
-  background-color: #32d2a7;
-  border-color: #32d2a7;
-}
-
-.btn.btn-primary:active {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
-  background-color: #32d2a7;
-  border-color: #32d2a7;
-}
 
 section {
   padding: 8%;
@@ -341,10 +327,6 @@ section.aqua {
   color: #000 !important;
 }
 
-
-
-
-
 section.pink {
   background-color: #fff1f1;
 }
@@ -376,9 +358,8 @@ section.pink {
   background-size: cover;
   width: 100%; 
   min-height: 100px;
-  
-    height: 15vw;
-    object-fit: cover;
+  height: 15vw;
+  object-fit: cover;
 }
 
 .text-below-card {

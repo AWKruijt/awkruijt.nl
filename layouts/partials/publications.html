@@ -1,8 +1,8 @@
 {{ $publications := .Site.Data.publications }}
-
+ 
 <section class="greygreen">
   <h3>{{ $publications.title }}</h3>
- <hr>
+  <hr>
 <!--Carousel Wrapper-->
 <div id="carousel-publications" class="carousel slide carousel-fade" data-ride="carousel">
   <!--Indicators-->
@@ -11,41 +11,46 @@
     <li data-target="#carousel-publications" data-slide-to="1"></li>
     <li data-target="#carousel-publications" data-slide-to="2"></li>
   </ol>
+   
   <!--/.Indicators-->
   <!--Slides-->
   <div class="carousel-inner" role="listbox">
     <!--First slide-->
-    <div class="carousel-item active">
+    <div class="carousel-item active" width = 80%>
         <p> 
-        <strong> {{$publications.publications.title1}} </strong>      
+        <strong> {{$publications.publications.title1}} </strong>   
+        <br>
         <br>{{$publications.publications.authors1}}
         <br> <em> {{$publications.publications.journal1}} </em>
         <br> DOI: <em> <a href="{{$publications.publications.pdfurl1}}">{{$publications.publications.doi1}}</a></em>
        </p>
     </div>
+
     <!--/First slide-->
     <!--Second slide-->
     <div class="carousel-item">
-        <p> <strong> {{$publications.publications.title2}} </strong>         
-        <br>{{$publications.publications.authors2}}
+        <p> <strong> {{$publications.publications.title2}} </strong> 
+        <br>
+        <br> {{$publications.publications.authors2}}
         <br> <em> {{$publications.publications.journal2}} </em> 
         <br> DOI: <em> <a href="{{$publications.publications.pdfurl2}}">{{$publications.publications.doi2}}</a></em>
-         </p>
+        </p>           
     </div>
     <!--/Second slide-->
     <!--Third slide-->
     <div class="carousel-item">
-        <p> <strong> {{$publications.publications.title3}} </strong>         
+        <p> <strong> {{$publications.publications.title3}} </strong>   
+        <br>
         <br>{{$publications.publications.authors3}}
         <br> <em> {{$publications.publications.journal3}} </em> 
         <br>  DOI: <em> <a href="{{$publications.publications.pdfurl3}}">{{$publications.publications.doi3}}</a></em>
          </p>
     </div>
     <!--/Third slide-->
-      <hr>
+     
   </div>
   <!--/.Slides-->
- 
+
   <!--Controls-->
   <a class="carousel-control-prev" href="#carousel-publications" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -56,9 +61,9 @@
     <span class="sr-only">Next</span>
   </a>
   <!--/.Controls-->
-
 <!--/.Carousel Wrapper-->
     </div>
+     <hr>
     <br>
     <p>for a complete list of publications visit <a href="https://orcid.org/0000-0003-2318-6576"> my orcid record </a>  </p>
 </section>
