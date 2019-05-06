@@ -6,3 +6,4 @@ awk uilite.Rproj
 public/
 generate posts here and paste html into static folder/
 content/
+.Rproj.user
