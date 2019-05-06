@@ -1,4 +1,0 @@
-/public/
-.Rproj.user
-.Rhistory
-.RData

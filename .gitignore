@@ -1,4 +1,8 @@
-.Rproj.user
+awk uilite.Rproj
+.Rproj
 .Rhistory
 .RData
 .Ruserdata
+public/
+generate posts here and paste html into static folder/
+content/

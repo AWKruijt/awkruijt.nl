@@ -3,46 +3,39 @@
 	"plotfolio" : [
 	  	{
 			"image" : "JTRCI dashboard screenshot.png",
-			"title" : "",
 			"description" : "reliable change & Jacobson-Truax indices - plotting dashboard (on shinyapps.io)",
 			"link" : "https://awkruijt.shinyapps.io/JTRCI_dashboard/"
 		},
 		{
 			"image" : "JTI longitudinal plot.png",
-			"title" : "tessttitle",
 			"description" : "Jacobson-Truax indices over multiple time points",
 			"link" : "plotposts/longitudinalJTRCI.html"
 		},
 		{
 			"image" : "placebo contingency shiny.png",
-			"title" : "",
 			"description" : "dashboard accompanying a manuscript on pre-existing bias affecting training contingency in (hidden-contingency) CBM. (on shinyapps.io)",
 			"link" : "https://awkruijt.shinyapps.io/mechanics-of-CBM-app/"
 		},
 	
 			{
 			"image" : "difference score draggable dashboard.png",
-			"title" : "",
 			"description" : "dashboard on behaviour of difference scores - draggable (D3.js) plots through R2D3 (on shinyapps.io)",
 			"link" : "https://awpres.shinyapps.io/diffscorereliablityfourplots/"
 		},
 		
 		{
 			"image" : "CI dance animated.gif",
-			"title" : "",
 			"description" : "R generated gif illustrating 'the dance of the CIs'",
 			"link" : "images/CI dance animated.gif"
 		},
 		
 		{
 			"image" : "MA demo stage I screenshot.png",
-			"title" : "",
 			"description" : "demo version of the record selection & data-extraction app used for our meta-analysis of baseline bias in RCTs of Attention Bias Modification (opens github)",
 			"link" : "https://github.com/AWKruijt/MA_Demo_assessment_app"
 		},
 		{
 			"image" : "BayesIntervalsPlot.png",
-			"title" : "",
 			"description" : "plot showing meta-analytical 'interval/not-interval' Bayes factors (opens preprint on psyarxiv)",
 			"link" : "https://mfr.osf.io/render?url=https://osf.io/download/fbj2w/?direct%26mode=render"
 		}
