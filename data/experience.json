@@ -9,17 +9,22 @@
 		{
 			"timeperiod" : "2009 - 2014",
 			"company" : "Leiden University",
-			"description" : "doctorate (dr / PhD) in experimental psychopathology. Thesis title: Depression vulnerability: studying components of cognitive models."
+			"description" : "doctorate (dr / PhD) in experimental psychopathology"
 		},
 				{
 			"timeperiod" : "2014 - 2017",
 			"company" : "University of Oxford",
-			"description" : "post-doctoral research associate in experimental psychopathology."
+			"description" : "post-doctoral research associate in experimental psychopathology"
 		},
 				{
 			"timeperiod" : "2017 - 2019",
 			"company" : "Stockholm University",
-			"description" : "post-doctoral research fellow in clinical psychology with a focus on methods & statistics of experimental research"
+			"description" : "post-doctoral research fellow in clinical psychology"
+		},
+				{
+			"timeperiod" : "2019 - current",
+			"company" : "Integraal Kankercentrum Nederland (IKNL)",
+			"description" : "data analyst on the Dutch national cancer registry"
 		}
 	]
 }
