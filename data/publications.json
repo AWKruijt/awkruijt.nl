@@ -9,7 +9,7 @@
     "pdfurl1" :"https://psyarxiv.com/rfjup",
     
     "title2" : "Capturing dynamics of biased attention: Are new attention variability measures the way forward?",
-    "authors2" : "Kruijt, A.-W, Field, A.P., & Fox, E.",
+    "authors2" : "Kruijt, A.-W., Field, A.P., & Fox, E.",
     "journal2" : "PLoS One, 2019",
     "doi2" : "10.1371/journal.pone.0166600",
     "pdfurl2" : "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166600",
@@ -20,11 +20,17 @@
     "doi3" : "10.31234/osf.io/scqf3",
     "pdfurl3" : "https://psyarxiv.com/scqf3/",
     
-    "title4" : "Attentional bias modification in virtual reality–a VR-based dot-probe task with 2D and 3D stimuli",
-    "authors4" : "Ma, L, Kruijt, A.-W, Nöjd, S, Zetterlund, E, Andersson, G, Carlbring, P",
-    "journal4" : "Frontiers in Psychology",
-    "doi4" : "10.3389/fpsyg.2019.02526",
-    "pdfurl4" : "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02526"
+    "title4" : "Psychological Science Needs a Standard Practice of Reporting the Reliability of Cognitive-Behavioral Measurements",
+    "authors4" : "Parsons, S., Kruijt, A.-W., Fox, E.",
+    "journal4" : "Advances in Methods and Practices in Psychological Science",
+    "doi4" : "10.1177/2515245919879695",
+    "pdfurl4" : "https://journals-sagepub-com.ezp.sub.su.se/doi/full/10.1177/2515245919879695",
+    
+    "title5" : "Attentional bias modification in virtual reality–a VR-based dot-probe task with 2D and 3D stimuli",
+    "authors5" : "Ma, L, Kruijt, A.-W, Nöjd, S, Zetterlund, E, Andersson, G, Carlbring, P",
+    "journal5" : "Frontiers in Psychology",
+    "doi5" : "10.3389/fpsyg.2019.02526",
+    "pdfurl5" : "https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02526"
 		}
 	
 }
